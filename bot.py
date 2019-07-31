@@ -46,7 +46,7 @@ def handle_command(command, channel):
     response = None
     # This is where you start to implement more commands!
     if command.startswith(EXAMPLE_COMMAND):
-        response = "Our SRE Manager helps you to deploy apps in 'Coruscant'\nThis week of SRE Manager is [ @Jamje.kim ]"
+        response = "Our SRE Manager helps you to deploy apps in 'Coruscant'\nThis week of SRE Manager is [ @Seungheon.Jang ]"
 
     # Sends the response back to the channel
     slack_client.api_call(
